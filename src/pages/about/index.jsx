@@ -15,7 +15,7 @@ function About(){
                 <a href='https://drive.google.com/file/d/1wZ6zUd53IVe8XYIqBjhCJcO0H9ix7I4L/view' target='_blank'>Look at my resume</a>
             </div>
             <div className='camera_roll'>
-                <Marquee gradient={false}>
+                <Marquee gradient={false} speed={30}>
                     <img src={image} />
                     <img src={image} />
                     <img src={image} />

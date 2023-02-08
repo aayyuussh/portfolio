@@ -1,12 +1,12 @@
 .about {
-    background: url('../../assets/images/grayBg.svg');
+    background: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
     mix-blend-mode: darken;
     padding: 3vmax 15vmax;
     text-align: center;
 }
 
 .camera_roll {
-    background: url('../../assets/images/grayBg.svg');
+    background: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
     mix-blend-mode: darken;
     padding: 1vmax 0 3vmax 0;
 }
