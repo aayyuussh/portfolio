@@ -1,0 +1,6 @@
+.digital {
+    background: url('../../assets/images/grayBg.svg'), rgba(218, 208, 198, 0.4);
+    mix-blend-mode: multiply;
+    box-shadow: inset 0px 4px 22px rgba(0, 0, 0, 0.25);
+    padding: 3vmax 15vmax;
+}

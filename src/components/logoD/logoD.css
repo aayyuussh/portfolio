@@ -1,0 +1,18 @@
+.logoD {
+    background-image: url('../../assets/images/grayBg.svg');
+    mix-blend-mode: darken;
+    padding: 3vmax 15vmax;
+}
+
+.logo_grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4vmax;
+    padding: 3vmax 0;
+}
+
+.logo_grid>img {
+    width: 22%;
+}

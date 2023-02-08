@@ -1,0 +1,30 @@
+.about {
+    background: url('../../assets/images/grayBg.svg');
+    mix-blend-mode: darken;
+    padding: 3vmax 15vmax;
+    text-align: center;
+}
+
+.camera_roll {
+    background: url('../../assets/images/grayBg.svg');
+    mix-blend-mode: darken;
+    padding: 1vmax 0 3vmax 0;
+}
+
+.about>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vmax;
+    color: #685648;
+    padding: 1vmax 0;
+}
+
+.about>a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vmax;
+    text-decoration-line: underline;
+    color: #F0B18E;
+}
