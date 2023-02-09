@@ -1,7 +1,6 @@
 import Experience from '../../components/experience';
 import Hobbies from '../../components/hobbies';
 import Skills from '../../components/skills';
-import image from '../../assets/images/cameraRoll.svg';
 import Marquee from 'react-fast-marquee';
 import './about.css'
 
@@ -16,16 +15,29 @@ function About(){
             </div>
             <div className='camera_roll'>
                 <Marquee gradient={false} speed={30}>
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
-                    <img src={image} />
+                    <div className='camera_roll_images'>
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/WhatsApp_Image_2023-01-24_at_11.46_11.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886669623" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_850.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886665625" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_851.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886665131" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_848.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664906" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_847.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664789" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_846.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664604" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_849.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664481" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_843.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664287" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_844.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664186" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_845.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664075" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_841.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886661085" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_842.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886663267" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_840.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660775" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_839.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660560" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_837.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660355" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_838.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660058" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_836.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659867" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_833.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659795" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_835.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659762" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_832.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659700" />
+                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_834.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659599" />
+                    </div>
                 </Marquee>
             </div>
             <Hobbies />

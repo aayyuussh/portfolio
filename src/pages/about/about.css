@@ -11,6 +11,15 @@
     padding: 1vmax 0 3vmax 0;
 }
 
+.camera_roll_images {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.camera_roll_images>img {
+    width: 20vmax;
+}
+
 .about>p {
     font-family: 'Montserrat';
     font-style: normal;
