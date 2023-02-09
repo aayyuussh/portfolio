@@ -12,9 +12,9 @@ function App() {
       <React.Fragment>
         <Navbar />
         <Routes>
-          <Route path='/' element={ <Home /> } />
-          <Route path='about' element={ <About /> } />
-          <Route path='artworks' element={ <Artwork /> } />
+          <Route path='/portfolio' element={ <Home /> } />
+          <Route path='/portfolio/about' element={ <About /> } />
+          <Route path='/portfolio/artworks' element={ <Artwork /> } />
         </Routes>
         <Footer />
       </React.Fragment>
