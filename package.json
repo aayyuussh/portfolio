@@ -1,6 +1,6 @@
 {
-  "homepage": "http://aayyuussh.github.io/portfolio",
-  "name": "varshneyportfolio",
+  "name": "portfolio",
+  "homepage": "https://aayyuussh.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
