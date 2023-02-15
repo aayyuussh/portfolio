@@ -1,7 +1,6 @@
 import Experience from '../../components/experience';
 import Hobbies from '../../components/hobbies';
 import Skills from '../../components/skills';
-import Marquee from 'react-fast-marquee';
 import './about.css'
 
 function About(){
@@ -14,31 +13,52 @@ function About(){
                 <a href='https://drive.google.com/file/d/1wZ6zUd53IVe8XYIqBjhCJcO0H9ix7I4L/view' target='_blank'>Look at my resume</a>
             </div>
             <div className='camera_roll'>
-                <Marquee gradient={false} speed={30}>
-                    <div className='camera_roll_images'>
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/WhatsApp_Image_2023-01-24_at_11.46_11.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886669623" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_850.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886665625" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_851.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886665131" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_848.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664906" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_847.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664789" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_846.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664604" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_849.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664481" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_843.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664287" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_844.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664186" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_845.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886664075" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_841.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886661085" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_842.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886663267" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_840.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660775" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_839.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660560" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_837.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660355" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_838.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886660058" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_836.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659867" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_833.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659795" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_835.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659762" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_832.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659700" />
-                        <img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_834.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675886659599" />
-                    </div>
-                </Marquee>
+                <div className='camera_roll_images'>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_837.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976351" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_835.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976347" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_838.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976280" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/WhatsApp_Image_2023-01-24_at_11.46_11__2_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976230" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_832.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441969094" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_833.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968717" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_836.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968477" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_834__1_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968299" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_839.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968088" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_841.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968033" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_840.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441966907" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_850.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964989" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_843.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964158" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_845.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965021" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_846.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964983" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_848.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964443" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_851.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964808" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_849.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964115" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_847.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964108" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_842.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965541" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_844.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965047" /></div>
+                </div>
+                <div className='camera_roll_images'>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_837.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976351" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_835.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976347" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_838.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976280" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/WhatsApp_Image_2023-01-24_at_11.46_11__2_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441976230" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_832.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441969094" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_833.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968717" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_836.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968477" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_834__1_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968299" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_839.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968088" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_841.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441968033" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_840.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441966907" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_850.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964989" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_843.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964158" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_845.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965021" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_846.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964983" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_848.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964443" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_851.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964808" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_849.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964115" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_847.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441964108" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_842.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965541" /></div>
+                    <div className='camera_roll_images_div'><img src="https://ik.imagekit.io/hfut635vd/my_photos/Frame_844.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676441965047" /></div>
+                </div>
             </div>
             <Hobbies />
             <Skills />

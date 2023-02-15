@@ -9,15 +9,34 @@
     background: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
     mix-blend-mode: darken;
     padding: 1vmax 0 3vmax 0;
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
 }
 
 .camera_roll_images {
+    flex-shrink: 0;
     display: flex;
-    overflow-x: scroll;
+    flex-basis: 10vmax;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: fit-content;
 }
 
-.camera_roll_images>img {
-    width: 20vmax;
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+.camera_roll_images {
+    animation: scroll 30s linear infinite;
 }
 
 .about>p {
