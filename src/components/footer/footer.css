@@ -38,12 +38,87 @@
 
 .footer_icons {
     display: flex;
-    gap: 0.8vmax;
+    gap: 2vmax;
     justify-content: center;
     align-items: center;
 }
 
-.footer_icons>a>img {
-    height: 70%;
-    width: 70%;
+.behance {
+    background-image: url('../../assets/icons/behance.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.behance:hover {
+    background-image: url('../../assets/hoverIcons/Hbehance.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url('../../assets/icons/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.twitter:hover {
+    background-image: url('../../assets/hoverIcons/Htwitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.instagram {
+    background-image: url('../../assets/icons/instagram.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.instagram:hover {
+    background-image: url('../../assets/hoverIcons/Hinstagram.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.linkedin {
+    background-image: url('../../assets/icons/linkedin.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.linkedin:hover {
+    background-image: url('../../assets/hoverIcons/Hlinkedin.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dribble {
+    background-image: url('../../assets/icons/dribble.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.dribble:hover {
+    background-image: url('../../assets/hoverIcons/Hdribble.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

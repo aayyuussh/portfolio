@@ -34,4 +34,19 @@
     font-weight: 400;
     font-size: 1.5vmax;
     color: #3C4043;
+    display: flex;
+    align-items: center;
+}
+
+.scrollanimation {
+    background-image: url('../../assets/icons/scroll.svg');
+    background-repeat: no-repeat;
+    height: 3vmax;
+    width: 3vmax;
+    background-size: cover;
+}
+
+.scrollanimation:hover {
+    cursor: pointer;
+    background-image: url('../../assets/hoverIcons/Hscroll.svg');
 }

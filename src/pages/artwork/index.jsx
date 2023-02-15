@@ -3,7 +3,6 @@ import Illustrations from '../../components/illustrations';
 import LogoD from '../../components/logoD';
 import Sketching from '../../components/sketching';
 import './artwork.css'
-import scroll from '../../assets/icons/scroll.svg';
 
 function Artwork(){
     return (
@@ -18,13 +17,16 @@ function Artwork(){
                     </div>
                 </div>
                 <div className='scroll_section'>
-                    <span>Scroll to see my <span style={{fontSize: '1vmax', color: '#F0B18E', fontWeight: '500'}}>ARTWORKS</span><img src={scroll} /></span>
+                    <span>Scroll to see my <span style={{fontSize: '1vmax', color: '#F0B18E', fontWeight: '500'}}>ARTWORKS</span></span>
+                    <a href='#artwork'><div className='scrollanimation'></div></a>
                 </div>
             </div>
-            <Illustrations />
-            <LogoD />
-            <Digital />
-            <Sketching />
+            <div id="artwork">
+                <Illustrations />
+                <LogoD />
+                <Digital />
+                <Sketching />
+            </div>
         </div>
     )
 }

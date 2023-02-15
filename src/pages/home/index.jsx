@@ -1,7 +1,7 @@
 import Works from '../../components/works';
 import './home.css'
 import scroll from '../../assets/icons/scroll.svg';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const delay = (time) => {
     return new Promise((resolve) => {
@@ -14,7 +14,7 @@ function Home(){
     const [state, setState] = useState("Ayush");
     const changeText = async () => {
         for(let i = 0; i < text.length; ) {
-            await delay(3000);
+            await delay(2000);
             setState(text[i]);
             i = (i + 1) % 2;
         }
@@ -36,10 +36,13 @@ function Home(){
                     </div>
                 </div>
                 <div className='scroll_section'>
-                    <span>Scroll to see my <span style={{fontSize: '1vmax', color: '#F0B18E', fontWeight: '500'}}>WORK</span><img src={scroll} /></span>
+                    <span>Scroll to see my <span style={{fontSize: '1vmax', color: '#F0B18E', fontWeight: '500'}}>WORK</span></span>
+                    <a href='#scrollwork'><div className='scrollanimation'></div></a>
                 </div>
             </div>
-            <Works />
+            <div id="scrollwork">
+                <Works />
+            </div>
         </div>
     )
 }

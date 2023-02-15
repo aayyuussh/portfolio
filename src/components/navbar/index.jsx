@@ -1,6 +1,6 @@
 import './navbar.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useRef, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -8,26 +8,26 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div>
-                <Link to="/">
+                <Link to="/portfolio">
                     <div className='sudoLogo'></div>
                 </Link>
             </div>
             <nav>
                 <ul className={click ? "mobile" : "not-mobile"}>
                     <li>
-                        <Link to="/about" className='nav-item'>
+                        <NavLink to="/portfolio/about" className={({isActive}) => (isActive ? "nav-item-active" : "nav-item")}>
                             ABOUT ME
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/" className='nav-item'>
+                        <a href='/portfolio/#scrollwork' className='nav-item'>
                             WORKS
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="/artworks" className='nav-item'>
+                        <NavLink to="/portfolio/artworks" className={({isActive}) => (isActive ? "nav-item-active" : "nav-item")}>
                             ARTWORKS
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
                         <a href='mailto:ayushvarshney0407@gmail.com' className='nav-item'>

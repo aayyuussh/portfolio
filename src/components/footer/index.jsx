@@ -1,9 +1,4 @@
 import './footer.css'
-import behance from '../../assets/icons/behance.svg';
-import twitter from '../../assets/icons/twitter.svg';
-import instagram from '../../assets/icons/instagram.svg';
-import linkedin from '../../assets/icons/linkedin.svg';
-import dribble from '../../assets/icons/dribble.svg';
 
 function Footer(){
     return (
@@ -15,19 +10,19 @@ function Footer(){
             <div className='footer_right'>
                 <div className='footer_icons'>
                     <a href='https://www.behance.net/ayushvarshney1' target='_blank'>
-                        <img src={behance} />
+                        <div className='behance'></div>
                     </a>
                     <a href='https://twitter.com/Ayush31453170' target='_blank'>
-                        <img src={twitter} />
+                        <div className='twitter'></div>
                     </a>
                     <a href='https://www.instagram.com/_ayush.varshney/' target='_blank'>
-                        <img src={instagram} />
+                        <div className='instagram'></div>
                     </a>
                     <a href='https://www.linkedin.com/in/ayush-varshney-57a982201/' target='_blank'>
-                        <img src={linkedin} />
+                        <div className='linkedin'></div>
                     </a>
                     <a href='https://dribbble.com/123ayush' target='_blank'>
-                        <img src={dribble} />
+                        <div className='dribble'></div>
                     </a>
                 </div>
             </div>
