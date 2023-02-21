@@ -32,7 +32,7 @@ function Home(){
                         <p className='desc_text'>I design to make things simple and aesthetic</p>
                     </div>
                     <div className='artwork_hero_right'>
-                        <img src="https://ik.imagekit.io/hfut635vd/images/artworkHero.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675872765826" />
+                        <img src="https://ik.imagekit.io/hfut635vd/images/homephoto.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676970186559" />
                     </div>
                 </div>
                 <div className='scroll_section'>

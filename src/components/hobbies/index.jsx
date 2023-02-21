@@ -1,9 +1,4 @@
 import './hobbies.css';
-import hamburger from '../../assets/icons/hamburger.svg';
-import paintBrush from '../../assets/icons/paintBrush.svg';
-import tea from '../../assets/icons/tea.svg';
-import playing from '../../assets/icons/playing.svg';
-import music from '../../assets/icons/music.svg';
 
 function Hobbies() {
     return (
@@ -11,24 +6,24 @@ function Hobbies() {
             <p className='main_title'>HOBBIES</p>
             <div className='hobbies_grp'>
                 <div className='hobby_card'>
-                    <img src={hamburger} />
-                    <p>I love to Eat</p>
+                    <img src='https://ik.imagekit.io/hfut635vd/icons/Group_261-1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676971289592' />
+                    <p>Watching Movies</p>
                 </div>
                 <div className='hobby_card'>
-                    <img src={paintBrush} />
-                    <p>I love to Draw</p>
+                    <img src='https://ik.imagekit.io/hfut635vd/icons/Group_258.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676971382709' />
+                    <p>Sketching</p>
                 </div>
                 <div className='hobby_card'>
-                    <img src={tea} />
-                    <p>I love tea</p>
+                    <img src='https://ik.imagekit.io/hfut635vd/icons/Group_259.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676971289373' />
+                    <p>Designing</p>
                 </div>
                 <div className='hobby_card'>
-                    <img src={playing} />
-                    <p>I enjoy playing volleyball</p>
+                    <img src='https://ik.imagekit.io/hfut635vd/icons/Group_260.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676971289500' />
+                    <p>Playing volleyball</p>
                 </div>
                 <div className='hobby_card'>
-                    <img src={music} />
-                    <p>I love to listen music</p>
+                    <img src='https://ik.imagekit.io/hfut635vd/icons/Group_261.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1676971289525' />
+                    <p>Watching Anime</p>
                 </div>
             </div>
         </div>
