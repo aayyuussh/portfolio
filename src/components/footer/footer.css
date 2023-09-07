@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.footer {
+    background-image: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
+    mix-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vmax 15vmax;
+}
+
+.footer_left {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.footer_left>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #685648;
+    font-size: 1.7vmax;
+}
+
+.footer_left>a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #F0B18E;
+    text-decoration-line: underline;
+    font-size: 1.25vmax;
+}
+
+.footer_right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.footer_icons {
+    display: flex;
+    gap: 2vmax;
+    justify-content: center;
+    align-items: center;
+}
+
+.behance {
+    background-image: url('../../assets/icons/behance.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.behance:hover {
+    background-image: url('../../assets/hoverIcons/Hbehance.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url('../../assets/icons/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.twitter:hover {
+    background-image: url('../../assets/hoverIcons/Htwitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.instagram {
+    background-image: url('../../assets/icons/instagram.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.instagram:hover {
+    background-image: url('../../assets/hoverIcons/Hinstagram.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.linkedin {
+    background-image: url('../../assets/icons/linkedin.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.linkedin:hover {
+    background-image: url('../../assets/hoverIcons/Hlinkedin.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dribble {
+    background-image: url('../../assets/icons/dribble.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.dribble:hover {
+    background-image: url('../../assets/hoverIcons/Hdribble.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

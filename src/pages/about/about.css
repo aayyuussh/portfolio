@@ -1,0 +1,58 @@
+.about {
+    background: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
+    mix-blend-mode: darken;
+    padding: 3vmax 15vmax;
+    text-align: center;
+}
+
+.camera_roll {
+    background: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
+    mix-blend-mode: darken;
+    padding: 1vmax 0 3vmax 0;
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+.camera_roll_images {
+    flex-shrink: 0;
+    display: flex;
+    flex-basis: 10vmax;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: fit-content;
+}
+
+@keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+.camera_roll_images {
+    animation: scroll 30s linear infinite;
+}
+
+.about>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vmax;
+    color: #685648;
+    padding: 1vmax 0;
+}
+
+.about>a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vmax;
+    text-decoration-line: underline;
+    color: #F0B18E;
+}

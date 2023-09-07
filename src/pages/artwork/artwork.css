@@ -1,0 +1,52 @@
+.artwork_hero {
+    background-image: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
+    mix-blend-mode: darken;
+    padding: 3vmax 15vmax;
+}
+
+.artwork_hero_tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artwork_hero_left {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2vmax;
+    color: #685648;
+    width: 40vmax;
+}
+
+.artwork_hero_right {
+    text-align: right;
+}
+
+.artwork_hero_right>img {
+    width: 90%;
+}
+
+.scroll_section {
+    padding: 2vmax 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vmax;
+    color: #3C4043;
+    display: flex;
+    align-items: center;
+}
+
+.scrollanimation {
+    background-image: url('../../assets/icons/scroll.svg');
+    background-repeat: no-repeat;
+    height: 3vmax;
+    width: 3vmax;
+    background-size: cover;
+}
+
+.scrollanimation:hover {
+    cursor: pointer;
+    background-image: url('../../assets/hoverIcons/Hscroll.svg');
+}
