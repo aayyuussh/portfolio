@@ -10,7 +10,7 @@ function About(){
                 <p>I'm a fourth-year undergraduate in Production and Industrial Engineering at IIT Roorkee. My journey has been a continuous learning process, helping me grow and gain self-awareness.</p>
                 <p>My interests in design, technology, and products have naturally led me to UX design, where I excel at creating strategic and meaningful user experiences. I thrive on taking initiatives and leading teams to problem-solving, fostering a shared vision. I aim to further explore this field globally, collaborating with experts and users.</p>
                 <p style={{paddingBottom: '3vmax'}}>Throughout, I've honed skills like embracing the design process, holistic thinking, effective teamwork, and user empathy. As a UX designer, I've gained a deeper understanding of these principles. Beyond design, I enjoy drawing and playing volleyball. My goal is to continue my growth in UX design.</p>
-                <a href='https://drive.google.com/file/d/1LhJ5iLiBZ94QWjjK8ZYYbugd3rk6rs6i/view?usp=sharing' target='_blank'>Look at my resume</a>
+                <a href='https://drive.google.com/file/d/18ZuRVb03_lrREi6mIE0K8j3PxpqamHPl/view?usp=sharing' target='_blank'>Look at my resume</a>
             </div>
             <div className='camera_roll'>
                 <div className='camera_roll_images'>
