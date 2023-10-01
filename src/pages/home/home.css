@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.home_hero {
+    background-image: url('https://ik.imagekit.io/hfut635vd/images/grayBg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1675833173329');
+    mix-blend-mode: darken;
+    padding: 3vmax 15vmax;
+}
+
+.home_hero_tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_hero_left {
+    width: 50vmax;
+}
+
+.welcome_text {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vmax;
+    color: #685648;
+}
+
+.hi_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vmax;
+    color: #685648;
+}
+
+.Ayush {
+    font-size: 4vmax;
+    color: #685648;
+}
+
+.Varshney {
+    font-size: 4vmax;
+    color: #F0B18E;
+}
+
+.desc_text {
+    color: var(--f-0-b-18-e, #F0B18E);
+    font-family: Montserrat;
+    font-size: 1.2vmax;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.6vmax 0;
+}
