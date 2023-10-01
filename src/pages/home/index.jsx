@@ -29,7 +29,7 @@ function Home(){
                     <div className='home_hero_left'>
                         {/* <p className='welcome_text'>Welcome to my portfolio</p> */}
                         <p className='hi_text'>Hi!! I am <span className={state}>{state}</span></p>
-                        <p className='desc_text'>-Product Design -UX -UI -Interactions -Graphics</p>
+                        <p className='desc_text'>-Product Design -Interactions -Graphics Design</p>
                         <p className='desc_text' style={{color: "var(--685648, #685648)", fontSize: "0.9vmax"}}>Previously worked 
                             <a style={{fontSize: '0.9vmax', cursor: 'pointer', textDecoration: 'none', color: "var(--685648, #685648)"}} href="https://www.summerofbitcoin.org/" target='_blank'> @Summer of Bitcoin</a>
                             <a style={{fontSize: '0.9vmax', cursor: 'pointer', textDecoration: 'none', color: "var(--685648, #685648)"}} href="https://getalby.com/" target='_blank'> @Alby</a>
